@@ -21,8 +21,11 @@ public class SequentialWordsNumbers {
         int start = 0;
         int end;
         int num = 1;
-        String endText = "(1) ";
-
+        String endText = "";
+        boolean spase = text.isEmpty();
+        if (!spase) {
+            endText = "(1) ";
+        }
         for (int i = 0; i < text.length(); i++) {
             end = i;
             if (text.charAt(i) == ' ') {
