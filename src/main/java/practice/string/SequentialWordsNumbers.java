@@ -12,11 +12,6 @@ public class SequentialWordsNumbers {
         System.out.println(sequentialWordsNumbers(text));
     }
 
-
-
-
-
-
     public static String sequentialWordsNumbers(String text) {
         int start = 0;
         int end;
